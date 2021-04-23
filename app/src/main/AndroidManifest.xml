@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.senai.sp.jandira.imcb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icone"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".gui.ncdActivity"></activity>
+        <activity android:name=".gui.MenuActivity" />
+        <activity android:name=".gui.ResultadoActivity" />
+        <activity android:name=".gui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".gui.ImcActivity" />
+    </application>
+
+</manifest>
